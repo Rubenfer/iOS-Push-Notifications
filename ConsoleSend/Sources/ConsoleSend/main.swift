@@ -30,6 +30,8 @@ tokens.forEach( { token in
     }
 } )
 
+guard bundles.count > 0 else { exit(1) }
+
 print("-------------")
 for i in 1...bundles.count {
     print("\(i). " + bundles[i-1])

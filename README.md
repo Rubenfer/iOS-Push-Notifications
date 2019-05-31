@@ -101,8 +101,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 Para realizar el envío de notificaciones a los dispostivos:
 
-1. En la Terminal de tu Mac ve a la carpeta ConsoleSend
-2. Abre el proyecto Xcode (puedes utilizar el comando `open .` para abrir la carpeta en el Finder y posteriormente abrir el archivo .xcodeproj)
+1. En la Terminal de tu Mac ve a la carpeta ConsoleSend.
+2. Ejecuta el comando `swift package generate-xcodeproj`.
+3. Abre el proyecto .xcodeproj que se acaba de generar.
 3. En el archivo main.swift encontrarás en las primeras líneas siguientes datos que debes modificar: 
 ```swift
 let p8FilePath = "/Users/.../AuthKey_keyIdentifier.p8"
